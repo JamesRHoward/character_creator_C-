@@ -1,0 +1,10 @@
+<h1>These are you characters</h1>
+
+<ul>
+  @foreach (var character in Model)
+  {
+    <li><a href="/character/@character.GetId()">@character.GetCharacterName()</a></li>
+  }
+</ul>
+
+<a href="/characters/new">Add a new character</a>
