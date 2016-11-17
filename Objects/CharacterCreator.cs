@@ -52,7 +52,7 @@ namespace CharacterCreator.Objects
       return _id;
     }
 
-    private static List<Character> GetAllIdentity()
+    public static List<Character> GetAllIdentity()
     {
       return _identity;
     }
